@@ -3,6 +3,8 @@
 import express from "express";
 import mongoose  from "mongoose";
 import Cards from './dbCards.js';
+import Cors from 'cors';
+
 
 
 
@@ -13,6 +15,8 @@ const connection_url=`mongodb://localhost:27017/?readPreference=primary&appname=
 
 
 //middleware
+app.use(express.json());
+app.use(Cors());
 
 //db config
 // mongoose.connect(connection_url,{
