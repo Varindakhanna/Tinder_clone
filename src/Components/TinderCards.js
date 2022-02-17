@@ -14,7 +14,7 @@ function TinderCards() {
       url:"https://pbs.twimg.com/profile_images/1166471091663122433/5ULjGFJS_400x400.jpg"
     },
     {
-      name:"Kareena",
+      name:"Kareena kapoor",
       url:"https://upload.wikimedia.org/wikipedia/commons/6/66/Kareena_Kapoor_at_TOIFA16.jpg"
 
     }
